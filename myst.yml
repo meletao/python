@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 1ee087f3-663f-47af-a794-66961f3ed249
-  # title:
+  title: python
   # description:
   # keywords: []
   # authors: []
@@ -10,6 +10,8 @@ project:
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    favicon: https://raw.githubusercontent.com/meluron/assets/refs/heads/main/logo/meletao/favicon.ico
+    logo: https://raw.githubusercontent.com/meluron/assets/refs/heads/main/logo/meletao/meletao-logo-wbg.png
+  parts:
+    primary_sidebar_footer: ""
